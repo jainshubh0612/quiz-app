@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+.one{
+    height: 100px;
+    width: 100vw;
+    background-color: darkcyan;
+    /* margin-left: 10px; */
+    
+}
+
+.userName {
+    height: 100%;
+    width: 30vw;
+    background: red;
+    float: right;
+    align-items: center;
+    transform: translateY(-100px);
+}
+
+.userName #name {
+    font-size: 30px;
+}
+/* .space{
+    margin:40px;
+} */
+#image{
+    height: 100%;
+    width:50px;
+    border:2px solid black; 
+    border-radius: 50px;
+    transform: translate(15px ,10px);
+}
+#image h5{
+    position: relative;
+    right: 10px;
+}
+footer{
+    width: 100vw;
+    height: 50px;
+    background-color: darkcyan;
+    position: relative;
+    top: 37px;
+}
+#rating .checked{
+    color: orange;
+    
+}
