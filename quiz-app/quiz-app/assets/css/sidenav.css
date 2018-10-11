@@ -1,0 +1,43 @@
+.side-navigation-main ul {
+    list-style: none;
+    padding: 35px;
+        
+}
+
+.side-navigation-main ul li {
+    margin-top: 15px;
+    text-align: center;
+    border-bottom: solid black 2px;
+}
+
+.side-navigation-main ul li:hover {
+  
+    border-bottom: solid darkcyan 2px;
+  border-top: solid darkcyan 2px;
+}
+
+.side-navigation-main ul li:nth-child(1):before
+{
+    
+    content: "Dashboard";
+}
+
+.side-navigation-main ul li:nth-child(2):before
+{
+    
+    content: "My Quizes";
+}
+
+.side-navigation-main ul li:nth-child(3):before
+{
+    
+    content: "Quizs list";
+}
+
+.side-navigation-main ul li:nth-child(4):before
+{
+    
+    content: "SignOut";
+}
+
+
