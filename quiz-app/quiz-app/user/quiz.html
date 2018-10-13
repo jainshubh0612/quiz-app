@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Quiz</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../assets/css/sidenav.css">
+        <link rel="stylesheet" href="../assets/css/header.css">
+        
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+		<!-- javascript links -->
+		<script src="../assets/js/question.js" type="c335b2fdef39883c0a0d12ca-text/javascript"></script>
+		<script src="../assets/js/quizScript.js" type="c335b2fdef39883c0a0d12ca-text/javascript"></script>
+		<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/2448a7bd/cloudflare-static/rocket-loader.min.js" data-cf-nonce="c335b2fdef39883c0a0d12ca-" defer=""></script></body>
+		
+		<link href="../assets/css/quiz.css" rel="stylesheet">
+	</head>
+
+ 
+	<body>
+
+            <header class="row col-md-12">
+                    <span class="col-md-1"></span>
+                <div class="profile-image col-md-1">
+
+                </div>
+
+                <span class="col-md-1"></span>
+                <span class="col-md-4">
+                    <span style="font-size: 30px;">Utkarsh (Lv 24)</span>
+                    <div id="rating" class="">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                    </div>
+                </span>
+            
+            </header>
+
+
+        <div class="row col-12">
+                <div class="col-md-2 side-navigation-main">
+						<ul>
+							<li><!--content from css before element --></li>
+							<li><!--content from css before element --></li>
+							<li><!--content from css before element --></li>
+							<li><!--content from css before element --></li>
+						</ul>
+                    </div>
+            
+		<div class="col-md-8">
+			<h1 id="welcomeH">Quiz name</h1><br><br>
+		<div id="quizContainer" class="container">
+			<div class="title">Quiz-12 &nbsp;&nbsp;&nbsp;question : <span id="quesNum"></span>/10</div>
+		
+			<div id="question" class="question"></div>
+			
+			<label class="option">
+				 <input type="radio" name="option" value="1" />
+				 <span id="opt1"></span>
+			</label>
+			
+			<label class="option"><input type="radio" name="option" value="2" />
+				<span id="opt2"></span>
+			</label>
+			
+			<label class="option"><input type="radio" name="option" value="3" />
+				<span id="opt3"></span>
+			</label>
+			
+			<label class="option"><input type="radio" name="option" value="4" />
+				<span id="opt4"></span>
+			</label>
+			<br>
+			<button id="nextButton" class="next-btn" onclick="loadNextQuestion();">
+				Next Question
+			</button>
+		
+		</div>
+		
+		<div id="result" class="container result" style="display:none;">
+		</div>
+		</div>
+    </div><!--container div ends  -->
+
+    <footer>
+
+    </footer>
+		
+
+</html>
